@@ -16,7 +16,7 @@ public class VerificadorNumeroConta {
             System.out.println("Numero de conta valido.");
         } catch (IllegalArgumentException e) {
             // TODO: Informar que o número de conta é inválido e exibir a mensagem de erro
-            System.out.println("Erro: " + e.getMessage());
+            S   ("Erro: " + e.getMessage());
         } finally {
             // Fechar o scanner para evitar vazamentos de recursos
             scanner.close();
